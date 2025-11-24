@@ -66,7 +66,7 @@ nav li a {
   background-position: top left, bottom right;
 }
 .scnd-bg {
-  background-color: rgb(241, 177, 215);
+  background-color: rgb(246, 127, 232);
 }
 main {
   max-width: 1140px;
@@ -77,6 +77,7 @@ main {
   padding: 130px 150px;
   margin-top: 130px;
   text-align: center;
+  box-shadow: 0px 6px 50px 0px rgb(121, 107, 94);
 }
 .info {
   display: flex;
@@ -89,7 +90,9 @@ main {
 .section-title {
   text-align: center;
 }
-
+main section {
+  margin: 130px 120px;
+}
 .skills-container {
   display: flex;
   gap: 24px;
@@ -104,4 +107,50 @@ main {
 }
 .skills {
   background-color: burlywood;
+}
+/* resume style */
+.resume-title {
+  text-align: center;
+}
+.resume-container {
+  display: flex;
+  gap: 24px;
+  padding: 20px;
+}
+.resume {
+  background-color: bisque;
+  box-shadow: 0px 6px 50px 0px rgb(121, 107, 94);
+}
+.button-container {
+  text-align: center;
+}
+.download-cv-btn {
+  background-color: #fd6e0a;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px 15px;
+  margin-right: 10px;
+}
+/* footer section */
+footer {
+  display: flex;
+  padding: 130px 230px;
+  background-color: rgb(222, 224, 226);
+  gap: 100px;
+}
+.footer-column {
+  width: 50%;
+}
+.information {
+  height: 64px;
+  border-radius: 15px;
+  background-color: azure;
+  display: block;
+  padding: 15px 15px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: medium;
 }
